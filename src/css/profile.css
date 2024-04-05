@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.name{
+    color: rgb(246, 84, 111);
+    font-family: Verdana, Geneva, Tahoma, sans-serifS;
+    margin-left: 30px;
+    font-size: larger;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.container h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.top p{
+    margin-top: 30px;
+}
+
+.mainprofile {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 50px;
+    /* background-color: aqua; */
+
+}
+
+.imagearea{
+    display: flex;
+    flex-direction: column;
+}
+.imagearea h1{
+    font-size: x-large;
+    font-weight: 800;
+}
+.chooseimage{
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+}
+.chooseimage p{
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(167, 155, 155);
+}
+.btn {
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    width: 150px;
+    padding: 10px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px dotted grey;
+    margin-top: 30px;
+}
+.addloaction{
+    margin-top: 80px;
+    margin-right: 330px;
+}
+.addloaction input{
+    border: 2px solid rgb(72, 6, 6);
+    padding: 10px;
+    
+}
+.addloaction p{
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.next-btn{
+    background-color: rgb(246, 84, 111);
+    padding: 5px;
+    width: 150px;
+    margin-top: 40px;
+    margin-right: 400px;
+    border-radius: 10px;
+    color: #fff;
+}

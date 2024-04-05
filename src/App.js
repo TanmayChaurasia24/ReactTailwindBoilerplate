@@ -1,11 +1,21 @@
-import DemoComponent from "./DemoComponent";
-
+import Signip from "./Signip";
+import Login from "./Login";
+import Profile from "./Profile";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div>
-   <DemoComponent />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Signip />} />
+        <Route path="/sign-in" element={<Login />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Router>
   );
 }
 
