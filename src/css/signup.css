@@ -6,7 +6,7 @@
 
 .container {
     display: flex; /* This should be flex, not flex-inline */
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     /* background-color: blueviolet; */
@@ -98,3 +98,13 @@
 .member a{
     color: blue;
 }
+
+@media (max-width: 1000px) {
+    .container {
+        background-color: red; /* Add a background color to test if the media query is applied */
+        border: 2px solid black; /* Add a border to test if the media query is applied */
+    }
+}
+
+
+

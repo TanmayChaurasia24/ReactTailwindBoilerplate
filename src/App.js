@@ -6,6 +6,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Work from "./Work";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Signip />} />
         <Route path="/sign-in" element={<Login />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/work" element={<Work />} />
       </Routes>
     </Router>
   );
